@@ -39,69 +39,70 @@ li a:hover{
 .s:hover{
     border: 3px solid red;
 }
-.ss{
-    width: 200px;
-    height: 200px;
-    margin-top: 5px;
-}
+
 /*..Main part..*/
-.Sec-1{
-    background-color: rgb(210, 131, 26);
+.Section-1{
+    margin: 0%;
+    padding: 0%;
+    max-width:100%;
+    max-height: 219px;
+    background-color: rgb(255, 145, 0);
 }
-.p{
-    border: 6px dotted rgba(255, 0, 0, 0.96);
-    border-radius: 100%;
+.pic{
+   border: 5px rgb(255, 30, 0) dotted;
+   border-radius: 100%;
     float: left;
     margin-left: 3px;
+  
 }
-.p:hover{
-    border-color: aqua;
-}
-.left{
-    float: left;
-    text-align: center;
-    margin-top:48px ;
-    margin-left: 15px;
-
-}
-.left:hover{
-    background-color: rgb(55, 132, 132);
-    color: rgb(255, 255, 255);
-}
-.right{
-    
-    float: left;
-    margin-top: 80px;
-    margin-left: 18px;
-   
-}
-.right a{
-    text-decoration: none;
-    color: #111;
-   
-    font-weight: 16px;
-}
-.right a:hover{
-    background-color: #de6969;
-    text-decoration: underline;
+.pic:hover{
+    border-color: rgb(4, 255, 255);
 }
 
-.map{
-    float: right;
-    margin-top: 15px;
+.name{
+    position: relative;
+
+top: 35px;
+left: 20px;
+float: left;
 
 }
+.name1:hover{
+    background-color: aqua;
+}
+.name:hover{
+    background-color: rgb(26, 137, 137);
+}
+.web:hover{
+  background-color: #eb3b3b;
+  color: #333;
+}
+.info{
+color: aquamarine;
+}
+.info1 a{
+color: #2a2525;
+}
+.info1 a:hover{
+    background-color: #ba2a2a;
+    }
+.info2 a{
+    color: #2a2525;
+    }
+    .info2 a:hover{
+        background-color: #ba2a2a;
+        }
 
+
+
+.section-2{
+    background-color: rgb(192, 149, 232);
+}
 
 .part{
     clear: both;
 }
-.hor{
 
-border: 3px solid rgb(135, 59, 8);
-border-radius: 20px;
-
-}
 .part1{
     clear: both;
 }
@@ -302,19 +303,7 @@ background-color: aqua;
 position: relative; 
 top: 5px;
 }
-#tulip .tulip1{
-    visibility: hidden;
-   position: absolute;
-   background-color: aqua;
-   border: 3px solid red; 
-   border-radius: 5px;
-   border-width: 5px;
-   padding: 2px;
-  left:55px;
-}
-#tulip:hover .tulip1{
-    visibility: visible;
-}
+
 #id1{
     color: blueviolet;
     margin-top: 8%;
@@ -325,6 +314,33 @@ top: 5px;
     height: 150px;
     overflow: scroll;
 }
+.ht{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+   
+}
+#tulip .tulip1{
+    visibility: hidden;
+   position: absolute;
+   background-color: aqua;
+   border: 3px solid rgb(247, 69, 69); 
+   border-radius: 3px;
+   border-width: 3px;
+   padding: 1px;
+  left:55px;
+}
+#tulip:hover .tulip1{
+    visibility: visible;
+}
+.section-3{
+    background-color: #cfa7a7;
+}
+
+table,th,td{
+    border:2px solid rgb(13, 255, 94);
+}
+
 .Last{
     background-color: #111;
     color: aliceblue;
